@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="bloco">
+            <h1>JS com ARRAY</h1><br><br>
+            <input type="text" id="name" name="name"> <button onclick="ClearInput()">x</button><br><br> <!-- Input para cadastro -->
+            <!-- <button onclick="CadInicio()">Cadastrar Inicio</button> <br><br>
+            <button onclick="CadFinal()">Cadastrar final</button> <br><br>
+            <button onclick="RemoveInicio()">Excluir inicio</button> <br><br>
+            <button onclick="RemoveFinal()">Excluir final</button> <br><br>
+            <button onclick="AlertAll()">Alert all names</button> <br><br>
+            <input type="number" id="name-pesquisa" name="name-pesquisa"> <br><br>
+            <button onclick="SearchKey()">Pesquisar posição</button> <br><br>
+            <button onclick="ListAll()">Listar nomes na tela</button> <br><br><br>
+            <div id="list"></div> -->
+            <!-- Escolher apagar ou não (comentado acima) -->
+            <select name="options" id="options">
+                <option value="0">Escolha uma opção</option>
+                <option value="1">Cadastrar inicio</option>
+                <option value="2">Cadastrar final</option>
+                <option value="3">Excluir inicio</option>
+                <option value="4">Excluir final</option>
+                <option value="5">Alert all names</option>
+                <option value="6">Listar nomes na tela</option>
+            </select>
+            <button onclick="ExecutarFuncao()">Executar</button> <br> <br>
+            <input type="text" id="pesquisar"><button onclick="PesquisarPosicao()">Pesquisar</button>
+            <div id="msg"></div>
+            <div id="list"></div> 
+        </div>
+    </div>
+</body>
+</html>

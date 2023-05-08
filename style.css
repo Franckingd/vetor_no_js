@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(20, 37, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.318);
+    margin-top: 30vh;
+    color: aliceblue;
+}
+
+option{
+    padding: 5px;
+    font-size: medium;
+    background: rgb(20, 37, 57);
+    color: aliceblue;
+}
+
+select{
+    border-radius: 5px;
+    padding: 5px 30px ;
+    font-size: small;
+    background: rgb(20, 37, 57);
+    color: aliceblue;
+    border: 0;
+    /* margin-right: 20px; */
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: small;
+    background: rgb(20, 37, 57);
+    color: aliceblue;
+    border: 0;
+}
+
+input{
+    border-radius: 5px;
+    font-size: medium;
+    text-align: center;
+}
+
+#pesquisar{
+    margin-right: 5px;
+}
